@@ -1,0 +1,42 @@
+
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  article{
+    flex: 1;
+  }
+  article:nth-of-type(2) {
+    flex: 3;
+  }
+  nav-bar{
+    flex: 400px;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+  }
+body {
+    margin: 0;
+  }
+
+  header, footer {
+    background: purple;
+    height: 100px;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+
+  article {
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+
+  }
+  main{
+    display: flex;
+  }
